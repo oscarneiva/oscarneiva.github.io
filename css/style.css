@@ -310,7 +310,7 @@ h2.title span{
 /*==================================================
 	section-profile
 =====================================================*/
-#section-skill .btn-default.featured{
+#section-skills .btn-default.featured{
 	padding: 15px 36px!important;
 }
 #section-profile{
@@ -376,10 +376,10 @@ h2.title span{
 
 /*section-skills
 ===============================================*/
-.skill-box{
+.skills-box{
 	margin-bottom: 25px;
 }
-.skill-box label{
+.skills-box label{
 	text-transform: uppercase;
 	margin-bottom: 4px;
 	font-weight: 600;
@@ -404,14 +404,14 @@ h2.title span{
 }
 
 
-/*section-resume
+/*section-education
 ==========================================*/
 
-#section-resume{
+#section-education{
 	background: #f2f2f1;
 	position: relative;
 }
-#section-resume:after{
+#section-education:after{
 	position: absolute;
 	content:"";
 	width: 60px;
@@ -422,23 +422,23 @@ h2.title span{
 	border-radius: 50%;
 }
 
-.resume-inner{}
-.resume-inner{
+.education-inner{}
+.education-inner{
 	width: 95%;
 }
-.resume-desc{
+.education-desc{
 	margin-top: -12px;
 }
-.resume-box{
+.education-box{
 	margin-bottom: 80px;
 }
-.resume-title{
+.education-title{
 
 }
-.resume-box.last{
+.education-box.last{
 	margin-bottom: 0px;
 }
-.resume-sub{
+.education-sub{
 	margin:-3px 0px 12px;
 }
 .result,.year{
@@ -859,8 +859,8 @@ float: left;
 		margin-top: 10px;
 	}
 
-.socail-link{}
-.socail-link a i{
+.social-link{}
+.social-link a i{
 	width: 35px;
 	height: 35px;
 	border-radius: 100%;
@@ -868,7 +868,7 @@ float: left;
 	font-size: 20px;
 	line-height: 35px;
 }
-.socail-link a:hover i{
+.social-link a:hover i{
 	color: #fff;
 }
 
@@ -989,10 +989,10 @@ float: left;
 	.service-inner {
 	    width: 100%;
 	}
-	.skill-desc{
+	.skills-desc{
 		margin-bottom: 40px;
 	}
-	.resume-inner{
+	.education-inner{
 		margin-bottom: 40px;
 	}
 
