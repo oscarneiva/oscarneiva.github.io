@@ -2,6 +2,7 @@
 	Author: webthemez.com 
 */ 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,700,400italic,500italic);
+@import url("../fonts/Roboto-Regular.ttf");
  
 /* Global styles
 ================================================== */
@@ -107,6 +108,11 @@ h5{
 }
 
 
+/* Gadget
+================================================== */
+/*.gadget-social section{
+
+}*/
 
 /*Button styles
 =============================================*/
@@ -248,7 +254,7 @@ h2.title span{
 	background: #3F51B5;
 	border: 0px;
 	border-radius: 0px;
-	border-top: 1px solid #fff;
+	border-top: 1px solid #3F51B5;
 }
 .navbar-nav {}
 .navbar-nav li{
@@ -256,7 +262,7 @@ h2.title span{
 }
 .navbar-default .navbar-nav > li > a{
 	font-weight: 400;
-	padding: 30px 20px;
+	padding: 16px 20px;
 	font-size: 15px;
 	font-family: 'Roboto', serif;
 	color: #fff;
@@ -330,8 +336,8 @@ h2.title span{
     height: 60%;
     z-index: 2;
     /*background-size: cover;*/
-    background-position: -0px center, 0px center; /*Arrastar foto para direita e esquerda*/
-    width: 20%;
+    background-position: -10px center, 0px center; /*Arrastar foto para direita e esquerda*/
+    width: 18.51%;
     height: 30%;
     border-right: 4px solid #3F51B5;
     border-left: 4px solid #3F51B5;
@@ -861,8 +867,8 @@ float: left;
 
 .social-link{}
 .social-link a i{
-	width: 35px;
-	height: 35px;
+	width: 50px;
+	height: 50px;
 	border-radius: 100%;
 	color: #3F51B5;
 	font-size: 20px;
