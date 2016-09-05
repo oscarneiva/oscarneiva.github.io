@@ -321,6 +321,7 @@ h2.title span{
 }
 #section-profile{
 	background: #f2f2f1;
+	top: -70px;
 }
 
 /*.profile-bg {
@@ -416,6 +417,12 @@ h2.title span{
 	background: #f2f2f1;
 	position: relative;
 }
+
+a.education{
+	color: #566366;
+	font-weight: bold;
+}
+
 #section-education:after{
 	position: absolute;
 	content:"";
@@ -467,6 +474,43 @@ h2.title span{
 	margin-bottom: 50px;
 }
 
+
+/*====================================================
+	section-experience
+====================================================*/
+#section-experience{
+	background: #f2f2f1;
+	position: relative;
+}
+
+#experience-details{
+	background: #000000;
+	position: relative;
+}
+
+h3.experience{
+	color: #737881;
+	font-family: 'Roboto';
+	text-transform: initial;
+}
+
+h5.experience{
+	color: #737881;
+	font-family: 'Roboto';
+}
+
+a.experience{
+	color: #566366;
+	font-weight: bold;
+}
+
+/*====================================================
+	section-resume
+====================================================*/
+#section-resume{
+	background: #f2f2f1;
+	position: relative;
+}
 
 /*====================================================
 	section-portfolio
@@ -722,56 +766,56 @@ clear: both;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner:before, .timeline-centered .timeline-entry .timeline-entry-inner:after {
-content: " ";
-display: table;
+	content: " ";
+	display: table;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner:after {
-clear: both;
+	clear: both;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-time {
-position: absolute;
-left: -100px;
-text-align: right;
-padding: 10px;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
+	position: absolute;
+	left: -100px;
+	text-align: right;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-time > span {
 	display: block;
 }
 
-	.timeline-centered .timeline-entry .timeline-entry-inner .timeline-time > span:first-child {
-		font-size: 15px;
-		font-weight: bold;
-	}
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-time > span:first-child {
+	font-size: 15px;
+	font-weight: bold;
+}
 
-	.timeline-centered .timeline-entry .timeline-entry-inner .timeline-time > span:last-child {
-		font-size: 12px;
-	}
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-time > span:last-child {
+	font-size: 12px;
+}
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
-background: #3F51B5;
-color: #737881;
-display: block;
-width: 40px;
-height: 40px;
--webkit-background-clip: padding-box;
--moz-background-clip: padding;
-background-clip: padding-box;
--webkit-border-radius: 20px;
--moz-border-radius: 20px;
-border-radius: 20px;
-text-align: center;
--moz-box-shadow: 0 0 0 5px #f5f5f6;
--webkit-box-shadow: 0 0 0 5px #f5f5f6;
-box-shadow: 0 0 0 5px #f5f5f6;
-line-height: 40px;
-font-size: 15px;
-float: left;
+	background: #3F51B5;
+	color: #737881;
+	display: block;
+	width: 40px;
+	height: 40px;
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	text-align: center;
+	-moz-box-shadow: 0 0 0 5px #f5f5f6;
+	-webkit-box-shadow: 0 0 0 5px #f5f5f6;
+	box-shadow: 0 0 0 5px #f5f5f6;
+	line-height: 40px;
+	font-size: 15px;
+	float: left;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-primary {
