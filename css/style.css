@@ -20,7 +20,7 @@ body{
 	border: 0;
 	margin: 0;
 	padding: 0;
-	color: #00FF7F;
+	color: #737881;
 	font-size: 14px;
 	background: #000000;
 }
@@ -412,7 +412,7 @@ h2.title span{
 
 /*section-education
 ==========================================*/
-
+/*
 #section-education{
 	background: #f2f2f1;
 	position: relative;
@@ -473,7 +473,36 @@ a.education{
 	text-transform: uppercase;
 	margin-bottom: 50px;
 }
+*/
 
+/*====================================================
+	section-education
+====================================================*/
+#section-education{
+	background: #f2f2f1;
+	position: relative;
+}
+
+#education-details{
+	background: #000000;
+	position: relative;
+}
+
+h3.education{
+	color: #737881;
+	font-family: 'Roboto';
+	text-transform: initial;
+}
+
+h5.education{
+	color: #737881;
+	font-family: 'Roboto';
+}
+
+a.education{
+	color: #566366;
+	font-weight: bold;
+}
 
 /*====================================================
 	section-experience
