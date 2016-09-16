@@ -22,7 +22,7 @@ body{
 	padding: 0;
 	color: #737881;
 	font-size: 14px;
-	background: #000000;
+	background: #f2f2f1;
 }
 
 a:link,
@@ -304,13 +304,13 @@ h2.title span{
 	section-overview
 =====================================================*/
 
-#section-overview{
+/*#section-overview{
 	padding: 75px 0px 80px;
 }
 .overview-box{}
 .overview-box h3{
 	margin-bottom: 35px;
-}
+}*/
 
 
 /*==================================================
@@ -345,13 +345,7 @@ h2.title span{
 }*/
 
 .profile-desc{
-	margin-bottom: 70px;
 	padding-left: 80px;
-}
-.profile-desc h2{
-}
-.service-wrapper{
-	/* padding-left: 80px; */
 }
 .service-inner{
 	float: left;
@@ -549,11 +543,6 @@ a.experience{
 	section-curriculum
 ====================================================*/
 #section-curriculum{
-	background: #f2f2f1;
-	position: relative;
-}
-
-#curriculum-details{
 	background: #000000;
 	position: relative;
 }
@@ -573,6 +562,15 @@ a.curriculum{
 	color: #566366;
 	font-weight: bold;
 }
+
+/*====================================================
+	section-skills
+====================================================*/
+#section-skills{
+	background: #000000;
+	position: relative;
+}
+
 
 /*====================================================
 	section-resume
@@ -1117,6 +1115,4 @@ clear: both;
 	.image-overlay a i {
 	    margin-top: 110px;
 	}
-
-
 }
