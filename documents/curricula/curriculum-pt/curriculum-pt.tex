@@ -9,6 +9,11 @@
 % Original author:
 % Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
 %
+% Modified By:
+% Oscar Neiva
+% oscar-neiva.github.io 
+% oscarneivaeneto@gmail.com
+%
 % Important note:
 % This template requires the res.cls file to be in the same directory as the
 % .tex file. The res.cls file provides the resume style used for structuring the
@@ -21,11 +26,12 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[margin, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
-
+\usepackage{graphics}
+\usepackage{epsfig}
 \usepackage{helvet} % Default font is the helvetica postscript font
 \usepackage[utf8]{inputenc}
 %\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
-
+%\usepackage[lmargin=2.5cm,rmargin=2cm,tmargin=2cm,bmargin=2cm]{geometry}
 \setlength{\textwidth}{5.1in} % Text width of the document
 
 \begin{document}
@@ -33,13 +39,24 @@
 %----------------------------------------------------------------------------------------
 %	NAME AND ADDRESS SECTION
 %----------------------------------------------------------------------------------------
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip %
 
-\moveleft.5\hoffset\centerline{\large\bf Oscar Neiva} % Your name at the top
+\vspace{-0.2cm}
+\hspace{-3.0cm}
+\includegraphics[width=2.2cm]{figures/profile.jpg}
+
+\vspace{-3cm}
+\leftline{\large\bf Oscar Neiva} % Your name at the top
+\vspace{0.5cm}
+\leftline{oscarneivaeneto@gmail.com}
+\leftline{oscar-neiva.github.io}
+\leftline{Rio de Janeiro, RJ}
  
+\vspace{0.8cm}
+
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
  
-\moveleft.5\hoffset\centerline{oscarneivaeneto@gmail.com} % Your address
-\moveleft.5\hoffset\centerline{Rio de Janeiro, RJ}
+
 
 %----------------------------------------------------------------------------------------
 
@@ -102,22 +119,26 @@ Segundo Grau, Niterói, RJ, 2009 - 2011.
 %----------------------------------------------------------------------------------------
 
 \section{Cursos e Atividades Extracurriculares} 
-X Escola Luso-Brasileira de Computação Evolutiva, LNCC, fevereiro de 2014\\
-IX Escola de Verão do Laboratório Associado de Computação e Matemática Aplicada, INPE, fevereiro de 2015\\
-Competição Brasileira de Robótica - IEEE Very Small Size, CBR, outubro de 2013\\
-Latin American Robotics Competition - IEEE Very Small Size Soccer, LARC, outubro de 2014\\
-Processos de Lévy Aplicados a Finança, LNCC, janeiro de 2015\\
-Latin American Robotics Competition - IEEE Very Small Size Soccer, LARC, novembro de 2015\\
-Jornada de Iniciação Científica PIBIC / LNCC, LNCC, setembro de 2014\\
-Jornada de Iniciação Científica e Tecnológica do LNCC, LNCC, setembro de 2015 
+X Escola Luso-Brasileira de Computação Evolutiva, LNCC, fevereiro de 2014.\\
+IX Escola de Verão do Laboratório Associado de Computação e Matemática Aplicada, INPE, fevereiro de 2015.\\
+Processos de Lévy Aplicados a Finança, LNCC, janeiro de 2015.\\
+
+%----------------------------------------------------------------------------------------
+%	Prêmios
+%----------------------------------------------------------------------------------------
+
+\section{Prêmios} 
+RUNNER-UP in category RoboCup Simulation 2D, LARC/CBR, October 23, 2014.\\
+Destaque na Jornada de Iniciação Científica e Tecnológica, LNCC, Setembro, 2015.
+
 
 %----------------------------------------------------------------------------------------
 %	Trabalho Voluntário
 %---------------------------------------------------------------------------------------- 
 
 \section{Trabalho Voluntário}
-Árbitro na Olimpíada Brasileira de Robótica (estadual Rio de Janeiro), agosto 2014\\
-Organizador da Olimpíada Brasileira de Robótica (regional Petrópolis), agosto 2015
+Árbitro na Olimpíada Brasileira de Robótica (estadual Rio de Janeiro), agosto 2014.\\
+Organizador da Olimpíada Brasileira de Robótica (regional Petrópolis), agosto 2015.
 
 %----------------------------------------------------------------------------------------
 
