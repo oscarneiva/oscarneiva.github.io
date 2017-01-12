@@ -22,7 +22,7 @@ body{
 	padding: 0;
 	color: #737881;
 	font-size: 14px;
-	background: #f2f2f1;
+	background: #000;
 }
 
 a:link,
@@ -32,7 +32,7 @@ a:visited{
 
 a:hover{
 	text-decoration: none;
-	color: #fff;
+	color: #263238;
 	cursor: pointer;
 }
 
@@ -48,11 +48,11 @@ a:focus{
 	outline: 0;
 }
 a{
-	color: #3F51B5;
+	color: #737881;
 }
 
 a.read-more:hover{
-	color: #3F51B5;
+	color: #263238;
 }
 ul,li{
 	list-style: none;
@@ -92,7 +92,7 @@ h3{
   	text-transform: uppercase;
   	font-weight: 500;
   	 
-    color: #3F51B5;
+    color: #263238;
 }
 
 h4{
@@ -104,7 +104,7 @@ h4{
 h5{
     font-size: 14px;
     line-height: 24px;
-    color: #3F51B5;
+    color: #263238;
 }
 
 
@@ -134,12 +134,12 @@ h5{
 	font-size: 18px;
 	line-height: 24px;
 	padding: 20px 19px;
-	border: 2px solid#3F51B5;
+	border: 2px solid#263238;
 	text-transform: uppercase;
 	border-radius: 0px;
 	font-weight: 700;
 	background: transparent;
-	color: #3F51B5;
+	color: #263238;
 	margin-top: 50px;
 	-webkit-transition: all .4s ease-in 0s;
 	-o-transition: all .4s ease-in 0s;
@@ -151,9 +151,9 @@ h5{
 	border-color: #fff;
 }
 .btn-default.featured:hover{
-	background: #3F51B5;
+	background: #263238;
 	color: #fff;
-	border-color:#3F51B5;
+	border-color:#263238;
 }
 
 /*Global styles
@@ -226,10 +226,10 @@ h2.title span{
 	navbar-menu
 =====================================================*/
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-  background-color: #3F51B5;
+  background-color: #263238;
 }
 .navbar-default .navbar-toggle {
-  border-color: #3F51B5;
+  border-color: #263238;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
@@ -251,10 +251,10 @@ h2.title span{
 }
 .navbar{}
 .navbar-default{
-	background: #3F51B5;
+	background: #263238;
 	border: 0px;
 	border-radius: 0px;
-	border-top: 1px solid #3F51B5;
+	border-top: 1px solid #263238;
 }
 .navbar-nav {}*/
 .navbar-nav li{
@@ -295,10 +295,31 @@ h2.title span{
 	font-size: 22px;
 }
 .navbar-brand span{
-	color: #3F51B5;
+	color: #263238;
 
 }
 
+/*==================================================
+	navbar-language
+=====================================================*/
+
+h5.navbar-language{
+	color: #ffffff;
+	font-family: 'Roboto';
+	text-transform: uppercase;
+	padding-top: 4px;
+}
+
+a.navbar-language{
+	color: #ffffff;
+	font-family: 'Roboto';
+	text-transform: uppercase;
+	padding-right: 5px;
+}
+
+li.navbar-language{
+	padding-top: 15px;
+}
 
 /*==================================================
 	section-overview
@@ -338,14 +359,15 @@ h2.title span{
     background-position: -20px center, 0px center; 
     width: 18.51%;
     height: 30%;
-    border-right: 4px solid #3F51B5;
-    border-left: 4px solid #3F51B5;
-    border-bottom: 4px solid #3F51B5;
-    border-top: 4px solid #3F51B5;
+    border-right: 4px solid #263238;
+    border-left: 4px solid #263238;
+    border-bottom: 4px solid #263238;
+    border-top: 4px solid #263238;
 }*/
 
 .profile-desc{
 	padding-left: 80px;
+	padding-top: 10px;
 }
 .service-inner{
 	float: left;
@@ -355,17 +377,14 @@ h2.title span{
 }
 .service-inner i{
 	font-size: 32px;
-	color: #3F51B5;
+	color: #263238;
 	float: left;
 }
 .service-box {
-	padding: 0px;
 	margin-left: 60px;
-	margin-top: -15px;
 }
 .service-box h3{
 	text-transform: uppercase;
-	margin-bottom: 16px;
 	font-size: 20px;
 	line-height: 24px;
 }
@@ -395,7 +414,7 @@ h2.title span{
 }
 .progress-bar {
 	box-shadow: none;
-	background-color: #3F51B5;
+	background-color: #263238;
 	text-align: right;
 	font-weight: 700;
 	font-size: 13px;
@@ -448,7 +467,7 @@ a.education{
 	margin:-3px 0px 12px;
 }
 .result,.year{
-	background: #3F51B5;
+	background: #263238;
 	color: #fff;
 	padding: 9px 12px;
 	display: inline-block;
@@ -473,7 +492,7 @@ a.education{
 	section-education
 ====================================================*/
 #section-education{
-	background: #f2f2f1;
+	background: #ffffff;
 	position: relative;
 }
 
@@ -488,13 +507,27 @@ h3.education{
 	text-transform: initial;
 }
 
+h3.education-title{
+	color: #737881;
+	font-family: 'Roboto';
+	text-transform: initial;
+}
+
 h5.education{
 	color: #737881;
 	font-family: 'Roboto';
+	text-transform: initial;
+}
+
+h5.education-title{
+	color: #737881;
+	font-family: 'Roboto';
+	text-transform: initial;
 }
 
 a.education{
-	color: #566366;
+	color: #737881;
+	font-family: 'Roboto';
 	font-weight: bold;
 }
 
@@ -502,7 +535,7 @@ a.education{
 	section-experience
 ====================================================*/
 #section-experience{
-	background: #f2f2f1;
+	background: #ffffff;
 	position: relative;
 }
 
@@ -536,7 +569,7 @@ a.experience{
 	line-height: 35px;
 }
 .social-link-tinky-winky a:hover i{
-	color: #fff;
+	color: #263238;
 }
 
 /*====================================================
@@ -625,10 +658,13 @@ a.curriculum{
 =================================================*/
 
 #section-contact{
-	background: #212121;
+	background: #ffffff;
 }
+
 #section-contact .heading-title{
-	color: #fff;
+	color: #737881;
+	font-family: 'Roboto';
+	font-weight: bold;
 }
 .contact-left{
 	padding-top: 30px;
@@ -640,7 +676,9 @@ a.curriculum{
 }
 
 .contact-left h2{
-	color: #fff;
+	color: #737881;
+	font-family: 'Roboto';
+	font-weight: bold;
 }
 .location{
 	margin: 45px 0px;
@@ -649,12 +687,23 @@ a.curriculum{
 	margin-left: -40px;
 }
 .contact-left ul li a{
-	color: #3F51B5;
+	color: #737881;
+	font-family: 'Roboto';
+	font-weight: bold;
 	margin-left: 40px;
 }
+
+a.contact{
+	color: #737881;
+	font-family: 'Roboto';
+	font-weight: bold;
+}
+
+
 .contact-left ul li span{
-	color: #fff;
-	
+	color: #737881;
+	font-family: 'Roboto';
+	font-weight: bold;
 }
 
 .contact-box{
@@ -664,7 +713,9 @@ a.curriculum{
 	margin-bottom: 39px;
 }
 .contact-box label{
-	color: #3F51B5;
+	color: #737881;
+	font-family: 'Roboto';
+	font-weight: bold;
 	margin-bottom: 20px;
 	font-size: 18px;
 }
@@ -674,12 +725,11 @@ a.curriculum{
 	border-radius: 0px;
 	background: #002037;
 	border: 0px;
-	border: 1px solid #3F51B5;
+	border: 1px solid #737881;
 	color: #B9D0E1;
 }
 .contact-form .btn-default{
-	
-	background: #3F51B5;
+	background: #263238;
 	border: 0px;
 }
 
@@ -693,7 +743,7 @@ vertical-align: middle;
 	display: inline-block;
 	padding: 6px 10px;
 	height: 42px;
-	border-color: #3F51B5;
+	border-color: #263238;
 }
 .img-responsive {
 display: block;
@@ -706,7 +756,7 @@ border-radius: 3px;
 }
 
 .img-thumbnail {
-background-color: #fff;
+background-color: #263238;
 border: 1px solid #ededf0;
 border-radius: 3px;
 display: inline-block;
@@ -865,7 +915,7 @@ clear: both;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
-	background: #3F51B5;
+	background: #263238;
 	color: #737881;
 	display: block;
 	width: 40px;
@@ -886,32 +936,32 @@ clear: both;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-primary {
-	background-color: #3F51B5;
+	background-color: #263238;
 	color: #fff;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-secondary {
-	background-color: #3F51B5;
+	background-color: #263238;
 	color: #fff;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-success {
-	background-color: #3F51B5;
+	background-color: #263238;
 	color: #fff;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-info {
-	background-color: #3F51B5;
+	background-color: #263238;
 	color: #fff;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-warning {
-	background-color: #3F51B5;
+	background-color: #263238;
 	color: #fff;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-danger {
-	background-color: #3F51B5;
+	background-color: #263238;
 	color: #fff;
 }
 
@@ -963,16 +1013,18 @@ clear: both;
 	============================================================*/
 
 	#section-footer{
-		background: #212121;
+		background: #ffffff;
 		padding: 10px 0px;
 	}
 	#section-footer h4{
-		color: #3F51B5;
+		color: #737881;
 		margin-top: 10px;
+		font-weight: bold;
 	}
 	#section-footer h6{
-		color: #3F51B5;
+		color: #737881;
 		margin-top: 10px;
+		font-weight: bold;
 	}
 
 .social-link{}
@@ -980,12 +1032,12 @@ clear: both;
 	width: 50px;
 	height: 50px;
 	border-radius: 100%;
-	color: #3F51B5;
+	color: #737881;
 	font-size: 30px;
 	line-height: 35px;
 }
 .social-link a:hover i{
-	color: #fff;
+	color: #263238;
 }
 
 /* Responsive styles

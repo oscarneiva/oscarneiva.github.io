@@ -13,14 +13,14 @@
         <!-- CSS
       ================================================== -->
         <!-- Bootstrap -->
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet"> 
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet"> 
 
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/animate.css"> 
-        <link rel="stylesheet" href="css/prettyPhoto.css"> 
-        <link rel="stylesheet" href="css/style.css"> 
+        <link rel="stylesheet" href="../css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/animate.css"> 
+        <link rel="stylesheet" href="../css/prettyPhoto.css"> 
+        <link rel="stylesheet" href="../css/style.css"> 
 
-        <link rel="shortcut icon" href="images/icon/r2d2.ico"> 
+        <link rel="shortcut icon" href="../images/icon/r2d2.ico"> 
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,32 +51,25 @@
         <section class="section-menu">
         	<div class="navbar navbar-default main-nav" role="navigation">
         		<div class="container">
-                    <div class="navbar-header">
-                        <div class="col-md-6 col-sm-12 pull-left">
-                            <button class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse">
-                                <span class="sr-only"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        </div>
-                        <div class="col-md-2 col-sm-12 pull-right">
-                            <li class="navbar-language">
-                                <a class="navbar-language" href="pt.html"> PT </a>
-                                <a class="navbar-language" href="index.html"> EN </a>
-                                <!--a class="navbar-language" href="de.html"> DE </a-->
-                            </li>
-                        </div>
-                    </div>
-                    
+        			<div class="navbar-header">
+        				<button class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse">
+        					<span class="sr-only"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        				</button>
+    					<!--a class="navbar-brand">Menu</a-->
+        			</div>  <!-- navbar-header end -->
+        			<!-- main nav  -->
+
         			<div class="collapse navbar-collapse navigation" id="bs-example-navbar-collapse-1" role="navigation">
         				<ul class="nav navbar-nav">
         					<!--li class="active"><a href="#section-banner">Início </a></li-->
         					<li class="active"><a href="#section-profile">Sobre </a></li>
                             <li><a href="#section-curriculum">Currículo </a></li>
         					<!--li><a href="#section-skills">Competências </a></li-->
-                            <li><a href="#section-education">Acadêmico </a></li>
                             <li><a href="#section-experience">Experiência </a></li>
+        					<li><a href="#section-education">Acadêmico </a></li>
         					<li><a href="#section-contact">Contato </a></li>
                             <!--li><a href="pt/index.html">PT </a></li-->
         				</ul>
@@ -101,7 +94,7 @@
     			<div class="row">
                     <div class="col-md-4 col-sm-12 pull-left">
                         <div class="profile-desc">
-                            <img src="images/profile/profile-cl.jpg" width="100%">
+                            <img src="../images/profile/profile-bw.jpg" width="60%">
                         </div>
                     </div>
     				<div class="col-md-8 col-sm-12 pull-right">
@@ -144,12 +137,12 @@
                     </div>
                     <div class="col-md-4 text-center">
                         <div class="timeline-label">
-                            <a href="documents/curricula/letter-pt/letter-pt.pdf" class="btn btn-default featured">Carta de Apresentação</a>
+                            <a href="../documents/curricula/letter-pt/letter-pt.pdf" class="btn btn-default featured">Carta de Apresentação</a>
                         </div>
                     </div>
                     <div class="col-md-4 text-center">
                         <div class="timeline-label">
-                            <a href="documents/curricula/curriculum-pt/curriculum-pt.pdf" class="btn btn-default featured">Curriculum Vitae</a>
+                            <a href="../documents/curricula/curriculum-pt/curriculum-pt.pdf" class="btn btn-default featured">Curriculum Vitae</a>
                         </div>
                     </div>
                 </div>
@@ -157,7 +150,137 @@
         </section>
         <!--section curriculum end-->
 
-        <!-- section education start -->
+        <!-- section experience start -->
+        <section id="section-experience" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="heading-title">Experiência</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-left">
+                        <div class="timeline-label">
+                            <h3 class="experience">Estágio em Desenvolvimento de Software</h3>
+                            <h5 class="experience">Laboratório de Sistemas Inteligentes e Robótica - <a class="experience" href="http://sirlab.github.io/">SIRLab</a>, Petrópolis, RJ <br> (Abril de 2014 - Dezembro de 2015)</h5> 
+                            <p>Trabalhei no SIRLab como desenvolvedor de software em linguagem C++. O projeto do qual fiz parte consistiu em desenvolver um sistema autônomo de futebol de robôs para a categoria IEEE Very Small Size Soccer. Dentre as diversas partes que constituiram o desenvolvimento do sistema SIRSoccer, fui encarregado de pesquisar um modelo de controle adequado e de criar um algoritmo com tal modelo.</p></br>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left">
+                        <div class="timeline-label">
+                            <h3 class="experience">Iniciação Científica</h3>
+                            <h5 class="experience">Laboratório Nacional de Computação Científica - <a class="experience" href="http://www.lncc.br/estrutura/default.php">LNCC</a>, Petrópolis, RJ <br> (Maio de 2014 - Março de 2016)</h5>
+                            <p>Meu trabalho no LNCC teve como motivação o estudo e simulação de sistemas sujeitos a saltos markovianos, com o objetivo de ao final do trabalho ser feita uma simulação do algoritmo PageRank, o algoritmo por trás da ferramenta de busca do Google.</p></br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience-details" class="section-padding">
+            <div class="container">
+                <div class="col-md-12">                
+                    <div class="education-inner">
+                        <h2 class="heading-title">Outros Projetos</h2>
+                        <p>Clique nas imagens para acessar o repositório de outros projetos que realizei para empresas, 
+                            instituições e outros projetos independentes. Alguns podem não conter um link para um repositório 
+                            público. Para mais informações sobre esses projetos entre em contato.</p></br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="idCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <!--li data-target="#idCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#idCarousel" data-slide-to="1"></li>
+                            <li data-target="#idCarousel" data-slide-to="2"></li>
+                            <li data-target="#idCarousel" data-slide-to="3"></li>
+                            <li data-target="#idCarousel" data-slide-to="4"></li>
+                            <li data-target="#idCarousel" data-slide-to="5"></li-->
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active" align="center">
+                                <img src="../images/works/weight-sensor.png" height="400" width="400" alt="Weight-Sensor">
+                                <h3 class="experience">Weight-Sensor</h3>
+                                <p>
+                                    Um simples software embarcado para a plataforma Arduino.
+                                </p>
+                                <ul class="social-link-tinky-winky list-inline">
+                                    <li><a href="https://github.com/oscar-neiva/Weight-Sensor"><i class="fa fa-github"></i></a></li>
+                                    <!--li><a href=""><i class="fa fa-youtube"></i></a></li-->
+                                </ul>
+                            </div>
+                            <div class="item" align="center">
+                                <img src="../images/works/vision-tracking.png" height="400" width="400" alt="Vision-Tracking">
+                                <h3 class="experience">Vision-Tracking</h3>
+                                <p>
+                                    Um simples software de visão computacional.
+                                </p>
+                                <ul class="social-link-tinky-winky list-inline">
+                                    <li><a href="https://github.com/oscar-neiva/Vision-Tracking"><i class="fa fa-github"></i></a></li>
+                                    <!--li><a href=" "><i class="fa fa-youtube"></i></a></li-->
+                                </ul>
+                            </div>
+                            <!--div class="item" align="center">
+                                <img src="images/works/sirsoccer.jpg" height="400" width="400" alt="SIRSoccer">
+                                <h3 class="experience">VSS-SDK</h3>
+                                <p>
+                                    
+                                </p>
+                                <ul class="social-link-tinky-winky list-inline">
+                                    <li><a href=""><i class="fa fa-github"></i></a></li>
+                                    <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                                </ul>
+                            </div-->
+                            <div class="item" align="center">
+                                <img src="../images/works/space-shooter.png" height="400" width="400" alt="Space-Shooter">
+                                <h3 class="experience">Space-Shooter</h3>
+                                <p>
+                                    Um jogo de guerra espacial para mobile do tutorial Unity.
+                                </p>
+                                <ul class="social-link-tinky-winky list-inline">
+                                    <li><a href="https://github.com/oscar-neiva/Space-Shooter"><i class="fa fa-github"></i></a></li>
+                                    <!--li><a href=""><i class="fa fa-youtube"></i></a></li-->
+                                </ul>
+                            </div>
+                            <div class="item" align="center">
+                                <img src="../images/works/roll-a-ball.png" height="400" width="400" alt="Roll-a-Ball">
+                                <h3 class="experience">Roll-a-Ball</h3>
+                                <p>
+                                    Um simples jogo do tutorial Unity.
+                                </p>
+                                <ul class="social-link-tinky-winky list-inline">
+                                    <li><a href="https://github.com/oscar-neiva/Roll-a-Ball"><i class="fa fa-github"></i></a></li>
+                                    <!--li><a href=""><i class="fa fa-youtube"></i></a></li-->
+                                </ul>
+                            </div>
+                            <div class="item" align="center">
+                                <img src="../images/works/pagerank.png" height="400" width="400" alt="PageRank">
+                                <h3 class="experience">PageRank</h3>
+                                <p>
+                                    Simulação numérica do PageRank, o algoritmo por trás das engrenagens de busca do Google.
+                                </p>
+                                <ul class="social-link-tinky-winky list-inline">
+                                    <!--li><a href=""><i class="fa fa-github"></i></a></li-->
+                                    <!--li><a href=""><i class="fa fa-youtube"></i></a></li-->
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <a href="#idCarousel" class="left carousel-control" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a href="#idCarousel" class="right carousel-control" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section experience End -->
+
+    	<!-- section education start -->
     	<section id="section-education" class="section-padding">
     		<div class="container">
     			<div class="row">
@@ -199,9 +322,9 @@
                                     <i class="entypo-feather"></i>
                                 </div>
                                 <div class="timeline-label">
-                                    <h3 class="education-title">RUNNER-UP in Category RoboCup Simulation 2D</h3>  
+                                    <h3 class="education-title">RUNNER-UP in category RoboCup Simulation 2D</h3>  
                                     <p>"We certify that Oscar Neiva Eulálio Neto from institution FAETEC-IST PETRÓPOLIS has attended Competição Latino Americana e Brasileira de Robótica / 2014, as a member of team SirSoccerSimulation who won the title of RUNNER-UP in category RoboCup Simulation 2D. The LARC/CBR was held at São Carlos, SP, from October 18 to 22, 2014. São Carlos, October 23, 2014."</p>
-                                    <a href="documents/certificates/larcRunnerUp-2014.pdf">Download PDF</a>
+                                    <a href="../documents/certificates/larcRunnerUp-2014.pdf">Download PDF</a>
                                 </div>
                             </div>
                         </article>
@@ -294,7 +417,7 @@
                                 <div class="timeline-label">
                                     <h3 class="education-title">Jornada de Iniciação Científica e Tecnológica</h3>  
                                     <p>"Certifico que Oscar Neiva Eulálio Neto participou da Jornada de Iniciação Científica e Tecnológica, no dia 15 de Janeiro de 2016 com carga horária de 3 horas, como parte das atividades do Programa de Verão 2016 do Laboratório Nacional de Computação Científica LNCC/MCTI, Petrópolis, RJ."</p>
-                                    <a href="documents/certificates/IC-2016.pdf">Download PDF</a>
+                                    <a href="../documents/certificates/IC-2016.pdf">Download PDF</a>
                                 </div>
                             </div>
                         </article>
@@ -306,7 +429,7 @@
                                 <div class="timeline-label">
                                     <h3 class="education-title">LARC - Latin American Robotics Competition & CBR - Competição Brasileira de Robótica</h3>
                                     <p>"The organizing committee of the Competição Latino Americana e Brasileira de Robótica (LARC/CBR/2015) hereby certifies that Oscar Neiva Neto, from FAETEC-IST PETRÓPOLIS, is member of the SirSoccerVSS-A team that has participated in the IEEE Very Small Size Soccer (VSSS) category during LARC/CBR-2015, held at Center Convention - Universidade Federal de Uberlândia, Uberlândia, MG, Brazil, from October, 28th - November, 01st 2015. Uberlândia, November, 02nd, 2015."</p>
-                                    <a href="documents/certificates/larc-2015.pdf">Download PDF</a>
+                                    <a href="../documents/certificates/larc-2015.pdf">Download PDF</a>
                                 </div>
                             </div>
                         </article>
@@ -318,7 +441,7 @@
                                 <div class="timeline-label">
                                     <h3 class="education-title">Olimpíada Brasileira de Robótica - Organização</h3>  
                                     <p>"Certificamos que Oscar Neiva Neto da instituição FAETEC-IST PETRÓPOLIS, integrou a Equipe de Apoio à Organização da Etapa Regional do Estado Rio de Janeiro na modalidade Prática da Olimpíada Brasileira de Robótica (OBR 2015). São Bernardo do Campo, 01 de Novembro de 2015."</p>
-                                    <a href="documents/certificates/obr-2015.pdf">Download PDF</a>
+                                    <a href="../documents/certificates/obr-2015.pdf">Download PDF</a>
                                 </div>
                             </div>
                         </article>
@@ -330,7 +453,7 @@
                                 <div class="timeline-label">
                                     <h3 class="education-title">Jornada de Iniciação Científica e Tecnológica do LNCC</h3>  
                                     <p>"Participou da Jornada de Iniciação Científica e Tecnológica do LNCC. Realizada no dia 25 de Setembro de 2015, com carga horária de 3 horas, no Laboratório Nacional de Computação Científica LNCC/MCTI, Petrópolis, RJ."</p>
-                                    <a href="documents/certificates/IC-2015.pdf">Download PDF</a>
+                                    <a href="../documents/certificates/IC-2015.pdf">Download PDF</a>
                                 </div>
                             </div>
                         </article>
@@ -342,7 +465,7 @@
                                 <div class="timeline-label">
                                     <h3 class="education-title">Escola de Verão - ELAC 2015</h3>  
                                     <p>"Certificamos que Oscar Neiva Eulálio Neto participou como aluno do(s) minicurso(s), identificados(s) no verso, oferecidos na IX Escola de Verão do Laboratório Associado de Computação e Matemática Aplicada, no período de 24 a 27 de Fevereiro de 2015, no Instituto Nacional de Pesquisas Espaciais - INPE, São Jose dos Campos - SP, promovido pelo Laboratório Associado de Computação e Matemática Aplicada - LAC e Panamerican Association of Computational Interdisciplinary Sciences - PACIS."</p>
-                                    <a href="documents/certificates/elac.pdf">Download PDF</a>
+                                    <a href="../documents/certificates/elac.pdf">Download PDF</a>
                                 </div>
                             </div>
                         </article>
@@ -354,7 +477,7 @@
                                 <div class="timeline-label">
                                     <h3 class="education-title">Processos de Lévy Aplicados a Finanças</h3>  
                                     <p>"Certifico que Oscar Neiva Eulálio Neto participou do curso Processos de Lévy aplicados a finanças, nos dias 28 e 29 de Janeiro de 2015, com carga horária de 6h, como parte das atividades do Programa de Verão 2015 do Laboratório Nacional de Computação Científica LNCC/MCTI, Petrópolis, RJ"</p>
-                                    <a href="documents/certificates/Processos-de-Levy.pdf">Download PDF</a>
+                                    <a href="../documents/certificates/Processos-de-Levy.pdf">Download PDF</a>
                                 </div>
                             </div>
                         </article>
@@ -366,7 +489,7 @@
                                 <div class="timeline-label">
                                     <h3 class="education-title">LARC - Latin American Robotics & Competition CBR - Competição Brasileira de Robótica</h3>  
                                     <p>"The organizing committee of the Competição Latino Americana e Brasileira de Robótica (LARC/CBR/2014) hereby certifies that Oscar Neiva Neto, from FAETEC-IST PETRÓPOLIS, is member of the SirSoccer team that has participated in the IEEE Very Small Size Soccer (VSSS) category during LARC/CBR-2014, held in São Carlos, SP, Brazil, from October 18th-22th, 2014. São Carlos, October 23th, 2014."</p>
-                                    <a href="documents/certificates/larc-2014.pdf">Download PDF</a>
+                                    <a href="../documents/certificates/larc-2014.pdf">Download PDF</a>
                                 </div>
                             </div>
                         </article>
@@ -378,7 +501,7 @@
                                 <div class="timeline-label">
                                     <h3 class="education-title">Jornada de Iniciação Científica PIBIC/LNCC</h3>  
                                     <p>"Participou da Jornada de Iniciação Científica PIBIC/LNCC, realizada no dia 25 de setembro de 2014, com carga horária de 3 horas, no Laboratório Nacional de Computação Científica LNCC/MCTI, Petrópolis, RJ."</p>
-                                    <a href="documents/certificates/IC-2014.pdf">Download PDF</a>
+                                    <a href="../documents/certificates/IC-2014.pdf">Download PDF</a>
                                 </div>
                             </div>
                         </article>
@@ -390,7 +513,7 @@
                                 <div class="timeline-label">
                                     <h3 class="education-title">V Escola Luso-Brasileira de Computação Evolutiva</h3>  
                                     <p>"Certifico que Oscar Neiva Eulálio Neto participou da V Escola Luso-Brasileira de Computação Evolutiva, no período de 18 a 21 de fevereiro de 2014, como parte das atividades do Programa de Verão 2014 do Laboratório Nacional de Computação Científica - LNCC/MCTI, Petrópolis, RJ."</p>
-                                    <a href="documents/certificates/ELBCE.pdf">Download PDF</a>
+                                    <a href="../documents/certificates/ELBCE.pdf">Download PDF</a>
                                 </div>
                             </div>
                         </article>
@@ -400,9 +523,9 @@
                                     <i class="entypo-feather"></i>
                                 </div>
                                 <div class="timeline-label">
-                                    <h3 class="education-title">Competição Brasileira de Robótica</h3>  
+                                    <h3 class="education-title">Competição Brasileira de Robótica</h3>
                                     <p>"Certificamos que Oscar Neiva Neto da instituição FAETEC-IST PETRÓPOLIS participou da Brasileira de Robótica / 2013, como membro do time SIRSoccer, na modalidade IEEE Very Small. Competição A CBR foi realizada em Fortaleza, CE, no período de 16 a 20 de Outubro de 2013. Fortaleza, 21 de Outubro de 2013."</p>
-                                    <a href="documents/certificates/cbr-2013.pdf">Download PDF</a>
+                                    <a href="../documents/certificates/cbr-2013.pdf">Download PDF</a>
                                 </div>
                             </div>
                         </article>
@@ -419,113 +542,33 @@
     	</section>
     	<!-- section education end -->
 
-        <!-- section experience start -->
-        <section id="section-experience" class="section-padding">
+        <!-- section resume start>
+        <section id="section-resume" class="section-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2 class="heading-title">Experiência</h2>
+                    <div class="col-md-12">
+                        <h2 class="heading-title">Currículo</h2>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 text-left">
+                    <div class="col-md-6 text-center">
                         <div class="timeline-label">
-                            <h3 class="experience">Estágio em Desenvolvimento de Software</h3>
-                            <h5 class="experience">Laboratório de Sistemas Inteligentes e Robótica - <a class="experience" href="http://sirlab.github.io/">SIRLab</a>, Petrópolis, RJ <br> (Abril de 2014 - Dezembro de 2015)</h5> 
-                            <p>Trabalhei no SIRLab como desenvolvedor de software em linguagem C++. O projeto do qual fiz parte consistiu em desenvolver um sistema autônomo de futebol de robôs para a categoria IEEE Very Small Size Soccer. Dentre as diversas partes que constituiram o desenvolvimento do sistema SIRSoccer, fui encarregado de pesquisar um modelo de controle adequado e de criar um algoritmo com tal modelo.</p></br>
+                            <p>Caso tenha interesse em conhecer mais sobre os meus trabalhos acadêmicos, clique no botão Curriculum Lattes para baixá-lo.</br>
+                            <a href="http://lattes.cnpq.br/8474691527967531" class="btn btn-default featured">Curriculum Lattes</a>
+                            </p></br>
                         </div>
                     </div>
-                    <div class="col-md-6 text-left">
+                    <div class="col-md-6 text-center">
                         <div class="timeline-label">
-                            <h3 class="experience">Iniciação Científica</h3>
-                            <h5 class="experience">Laboratório Nacional de Computação Científica - <a class="experience" href="http://www.lncc.br/estrutura/default.php">LNCC</a>, Petrópolis, RJ <br> (Maio de 2014 - Março de 2016)</h5>
-                            <p>Meu trabalho no LNCC teve como motivação o estudo e simulação de sistemas sujeitos a saltos markovianos, com o objetivo de ao final do trabalho ser feita uma simulação do algoritmo PageRank, o algoritmo por trás da ferramenta de busca do Google.</p></br>
+                            <p>Mas caso tenha interesse no meu Curriculum Vitae, clique no botão Curriculum Vitae para baixá-lo.</br>
+                            <a href="https://github.com/oscar-neiva/Curriculum/raw/master/curriculum-pt/curriculum-pt.pdf" class="btn btn-default featured">Curriculum Vitae</a>
+                            </p></br>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <section id="experience-details" class="section-padding">
-            <div class="container">
-                <div class="col-md-12">                
-                    <div class="education-inner">
-                        <h2 class="heading-title">Outros Projetos</h2>
-                        <p>Clique nas imagens para acessar o repositório de outros projetos que realizei para empresas, 
-                            instituições e de forma independente. Alguns podem não conter um link para um repositório 
-                            público. Para mais informações entre em contato.</p></br>
-                    </div>
-                </div>
-                <div class="row">
-                    <div id="idCarousel" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <!--li data-target="#idCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#idCarousel" data-slide-to="1"></li>
-                            <li data-target="#idCarousel" data-slide-to="2"></li>
-                            <li data-target="#idCarousel" data-slide-to="3"></li>
-                            <li data-target="#idCarousel" data-slide-to="4"></li>
-                            <li data-target="#idCarousel" data-slide-to="5"></li-->
-                        </ol>
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active" align="center">
-                                <img src="images/works/weight-sensor.png" height="400" width="400" alt="Weight-Sensor">
-                                <h3 class="experience">Weight-Sensor</h3>
-                                <p>
-                                    Um simples software embarcado para a plataforma Arduino.
-                                </p>
-                                <ul class="social-link-tinky-winky list-inline">
-                                    <li><a href="https://github.com/oscar-neiva/Weight-Sensor"><i class="fa fa-github"></i></a></li>
-                                    <!--li><a href=""><i class="fa fa-youtube"></i></a></li-->
-                                </ul>
-                            </div>
-                            <div class="item" align="center">
-                                <img src="images/works/vision-tracking.png" height="400" width="400" alt="Vision-Tracking">
-                                <h3 class="experience">Vision-Tracking</h3>
-                                <p>
-                                    Um simples software de visão computacional.
-                                </p>
-                                <ul class="social-link-tinky-winky list-inline">
-                                    <li><a href="https://github.com/oscar-neiva/Vision-Tracking"><i class="fa fa-github"></i></a></li>
-                                    <!--li><a href=" "><i class="fa fa-youtube"></i></a></li-->
-                                </ul>
-                            </div>
-                            <div class="item" align="center">
-                                <img src="images/works/space-shooter.png" height="400" width="400" alt="Space-Shooter">
-                                <h3 class="experience">Space-Shooter</h3>
-                                <p>
-                                    Um jogo de guerra espacial para mobile do tutorial Unity.
-                                </p>
-                                <ul class="social-link-tinky-winky list-inline">
-                                    <li><a href="https://github.com/oscar-neiva/Space-Shooter"><i class="fa fa-github"></i></a></li>
-                                    <!--li><a href=""><i class="fa fa-youtube"></i></a></li-->
-                                </ul>
-                            </div>
-                            <div class="item" align="center">
-                                <img src="images/works/roll-a-ball.png" height="400" width="400" alt="Roll-a-Ball">
-                                <h3 class="experience">Roll-a-Ball</h3>
-                                <p>
-                                    Um simples jogo do tutorial Unity.
-                                </p>
-                                <ul class="social-link-tinky-winky list-inline">
-                                    <li><a href="https://github.com/oscar-neiva/Roll-a-Ball"><i class="fa fa-github"></i></a></li>
-                                    <!--li><a href=""><i class="fa fa-youtube"></i></a></li-->
-                                </ul>
-                            </div>
-                        </div>
-                        
-                        <a href="#idCarousel" class="left carousel-control" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a href="#idCarousel" class="right carousel-control" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- section experience End -->
+        < section resume end-->
 
         <!--NOTE: Update your email Id in "contact_me.php" file in order to receive emails from your contact form-->
     	<!-- section contact start -->
@@ -572,9 +615,9 @@
     				</div-->
     				<div class="col-md-6 col-sm-6">
     					<div class="contact-left">
+    						<p class="contact">Quer saber mais sobre os trabalhos que tenho realizado? Entre em contato!</p>
     						<ul>
-    							<li><span>Gmail / Hangout:</span> <a>oscarneivaeneto@gmail.com</a></li>
-                                <li><span>Outlook:</span> <a>oscarneivaeneto@outlook.com</a></li>
+    							<li><span>Email / Hangout:</span> <a>oscarneivaeneto@gmail.com</a></li>
                                 <li><span>Celular / Whatsapp:</span> <a>(21) 98144-9559</a></li>
     						</ul></br>
             
@@ -593,8 +636,8 @@
     		<div class="container">
     			<div class="row">
     				<div class="col-md-12 text-center">
-    					<h4>Copyright © 2016-2017, Oscar Neiva E. Neto</h4>
-                        <h6>Template by <a class="section-contact" href="http://webthemez.com">WebThemez.com</a></h6>
+    					<h4>Copyright © 2016, Oscar Neiva E. Neto</h4>
+                        <h6>Template by <a href="http://webthemez.com">WebThemez.com</a></h6>
     				</div>
     			</div>
     		</div>
@@ -604,22 +647,22 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <!-- initialize jQuery Library -->
-        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="../js/jquery.js"></script>
         <!-- Bootstrap jQuery -->
-        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
         <!-- PrettyPhoto -->
-        <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+        <script type="text/javascript" src="../js/jquery.prettyPhoto.js"></script>
         <!-- Wow Animation -->
-        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript" src="../js/wow.min.js"></script>
         <!-- singlepagenav -->
-        <script src="js/jquery.singlePageNav.js"></script>
+        <script src="../js/jquery.singlePageNav.js"></script>
         <!-- Eeasing -->
-        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
         <!-- Sticky Menu -->
-        <script src="js/jquery.sticky.js"></script>
-        <script src="contact/jqBootstrapValidation.js"></script>
-        <script src="contact/contact_me.js"></script>
-        <script type="text/javascript" src="js/custom.js"></script> 
+        <script src="../js/jquery.sticky.js"></script>
+        <script src="../contact/jqBootstrapValidation.js"></script>
+        <script src="../contact/contact_me.js"></script>
+        <script type="text/javascript" src="../js/custom.js"></script> 
     	<script>
     		 $(".main-nav").sticky();
     	</script>
