@@ -27,7 +27,7 @@ Images : https://unsplash.com/ , https://www.pexels.com/ and https://pixabay.com
 
 Carousel : http://owlgraphic.com/owlcarousel/
 
-Design & development Adaptation: Oscar Neiva
+Design & development adaptation: Oscar Neiva
 
 - Email: oscarneivaeneto@gmail.com or oscarneivaeneto@outlook.com
 

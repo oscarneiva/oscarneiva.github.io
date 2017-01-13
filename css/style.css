@@ -32,7 +32,7 @@ a:visited{
 
 a:hover{
 	text-decoration: none;
-	color: #263238;
+	color: #ffffff;
 	cursor: pointer;
 }
 
@@ -340,11 +340,11 @@ li.navbar-language{
 }
 #section-profile{
 	background: #ffffff;
-	top: -70px;
+	margin-top: 50px;
+	margin-bottom: 100px;
 }
 .profile-desc{
 	padding-left: 80px;
-	padding-top: 10px;
 }
 .service-inner{
 	float: left;
@@ -419,6 +419,11 @@ h3.education{
 	text-transform: initial;
 }
 
+a.education:hover{
+	color: #263238;
+	cursor: pointer;
+}
+
 h3.education-title{
 	color: #737881;
 	font-family: 'Roboto';
@@ -475,6 +480,11 @@ a.experience{
 	font-weight: bold;
 }
 
+a.experience:hover{
+	color: #263238;
+	cursor: pointer;
+}
+
 .social-link-tinky-winky a i{
 	width: 50px;
 	height: 50px;
@@ -484,7 +494,7 @@ a.experience{
 	line-height: 35px;
 }
 .social-link-tinky-winky a:hover i{
-	color: #263238;
+	color: #ffffff;
 }
 
 /*====================================================
@@ -922,8 +932,15 @@ clear: both;
 		background: #ffffff;
 		padding: 10px 0px;
 	}
+
+	a.footer:hover{
+		text-decoration: none;
+		color: #263238;
+		cursor: pointer;
+	}
+
 	#section-footer h5{
-		color: #737881;
+		color: #737881; /*Don't change. White Background!*/
 		margin-top: 10px;
 	}
 	#section-footer h6{
@@ -941,7 +958,7 @@ clear: both;
 	line-height: 35px;
 }
 .social-link a:hover i{
-	color: #263238;
+	color: #263238; /*Don't change. White Background!*/
 }
 
 /* Responsive styles
