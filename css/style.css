@@ -22,7 +22,7 @@ body{
 	padding: 0;
 	color: #737881;
 	font-size: 14px;
-	background: #000;
+	background: #ffffff;
 }
 
 a:link,
@@ -70,7 +70,6 @@ body, p{
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Roboto', sans-serif;
-
 }
 
 h1{
@@ -91,7 +90,6 @@ h3{
     line-height: 24px;
   	text-transform: uppercase;
   	font-weight: 500;
-  	 
     color: #263238;
 }
 
@@ -256,7 +254,7 @@ h2.title span{
 	border-radius: 0px;
 	border-top: 1px solid #263238;
 }
-.navbar-nav {}*/
+.navbar-nav {}
 .navbar-nav li{
 	/*padding-right: 40px;*/
 }
@@ -341,30 +339,9 @@ li.navbar-language{
 	padding: 0px 36px!important;
 }
 #section-profile{
-	background: #f2f2f1;
+	background: #ffffff;
 	top: -70px;
 }
-
-/*.profile-bg {
-    background-color: transparent;
-    background: url("../images/profile/profile-bw.jpg");
-    position: absolute;
-    background-clip: border-box;
-    background-attachment: scroll;
-    background-origin: padding-box;
-    background-repeat: no-repeat;
-    left: 120px;
-    top: 120px;
-    z-index: 2;
-    background-position: -20px center, 0px center; 
-    width: 18.51%;
-    height: 30%;
-    border-right: 4px solid #263238;
-    border-left: 4px solid #263238;
-    border-bottom: 4px solid #263238;
-    border-top: 4px solid #263238;
-}*/
-
 .profile-desc{
 	padding-left: 80px;
 	padding-top: 10px;
@@ -422,72 +399,6 @@ li.navbar-language{
 	padding-top: 0px;
 }
 
-
-/*section-education
-==========================================*/
-/*
-#section-education{
-	background: #f2f2f1;
-	position: relative;
-}
-
-a.education{
-	color: #566366;
-	font-weight: bold;
-}
-
-#section-education:after{
-	position: absolute;
-	content:"";
-	width: 60px;
-	height: 60px;
-	background: #f2f2f1;
-	bottom: -25px;
-	left: 48%;
-	border-radius: 50%;
-}
-
-.education-inner{}
-.education-inner{
-	width: 95%;
-}
-.education-desc{
-	margin-top: -12px;
-}
-.education-box{
-	margin-bottom: 80px;
-}
-.education-title{
-
-}
-.education-box.last{
-	margin-bottom: 0px;
-}
-.education-sub{
-	margin:-3px 0px 12px;
-}
-.result,.year{
-	background: #263238;
-	color: #fff;
-	padding: 9px 12px;
-	display: inline-block;
-	font-weight: 500;
-	margin-bottom: 10px;
-}
-.result{
-	text-transform: uppercase;
-}
-.year{
-	text-transform: capitalize;
-}
-
-.client-name{
-	color: #566366;
-	text-transform: uppercase;
-	margin-bottom: 50px;
-}
-*/
-
 /*====================================================
 	section-education
 ====================================================*/
@@ -504,24 +415,28 @@ a.education{
 h3.education{
 	color: #737881;
 	font-family: 'Roboto';
+	font-weight: bold;
 	text-transform: initial;
 }
 
 h3.education-title{
 	color: #737881;
 	font-family: 'Roboto';
+	font-weight: bold;
 	text-transform: initial;
 }
 
 h5.education{
 	color: #737881;
 	font-family: 'Roboto';
+	font-weight: bold;
 	text-transform: initial;
 }
 
 h5.education-title{
 	color: #737881;
 	font-family: 'Roboto';
+	font-weight: bold;
 	text-transform: initial;
 }
 
@@ -603,15 +518,6 @@ a.curriculum{
 	background: #000000;
 	position: relative;
 }
-
-
-/*====================================================
-	section-resume
-====================================================*/
-/*#section-resume{
-	background: #f2f2f1;
-	position: relative;
-}*/
 
 /*====================================================
 	section-portfolio
@@ -1016,15 +922,13 @@ clear: both;
 		background: #ffffff;
 		padding: 10px 0px;
 	}
-	#section-footer h4{
+	#section-footer h5{
 		color: #737881;
 		margin-top: 10px;
-		font-weight: bold;
 	}
 	#section-footer h6{
 		color: #737881;
 		margin-top: 10px;
-		font-weight: bold;
 	}
 
 .social-link{}
