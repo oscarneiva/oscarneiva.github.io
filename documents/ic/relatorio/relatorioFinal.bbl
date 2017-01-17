@@ -1,0 +1,48 @@
+\begin{thebibliography}{1}
+
+\bibitem{avrachenkov2007monte}
+Konstantin Avrachenkov, Nelly Litvak, Danil Nemirovsky, and Natalia Osipova.
+\newblock Monte carlo methods in pagerank computation: When one iteration is
+  sufficient.
+\newblock {\em SIAM Journal on Numerical Analysis}, 45(2):890--904, 2007.
+
+\bibitem{brin2012reprint}
+Sergey Brin and Lawrence Page.
+\newblock Reprint of: The anatomy of a large-scale hypertextual web search
+  engine.
+\newblock {\em Computer networks}, 56(18):3825--3833, 2012.
+
+\bibitem{pagerankSIREV}
+K.~Bryan and T.~Leise.
+\newblock The \$25,000,000,000 eigenvector: The linear algebra behind {G}oogle.
+\newblock {\em SIAM Rev.}, 48(3):569--581, 2006.
+
+\bibitem{costafragosomarques}
+O.~L.~V. Costa, M.~D. Fragoso, and R.~P. Marques.
+\newblock {\em Discrete-Time {Markov} Jump Linear Systems}.
+\newblock Probability and Its Applications. Springer-Verlag, New York, 2005.
+
+\bibitem{ishiiTAC10}
+H.~Ishii and R.~Tempo.
+\newblock Distributed randomized algorithms for the {P}age{R}ank computation.
+\newblock {\em {IEEE} Trans. Automat. Control}, 55(9):1987--2002, 2010.
+
+\bibitem{ishii2014pagerank}
+Hideaki Ishii and Roberto Tempo.
+\newblock The pagerank problem, multiagent consensus, and web aggregation: A
+  systems and control viewpoint.
+\newblock {\em Control Systems, IEEE}, 34(3):34--53, 2014.
+
+\bibitem{lei2015distributed}
+Jianjun Lei and Han-Fu Chen.
+\newblock Distributed randomized pagerank algorithm based on stochastic
+  approximation.
+\newblock 2015.
+
+\bibitem{zaki2012detection}
+Nazar Zaki, Jose Berengueres, and Dmitry Efimov.
+\newblock Detection of protein complexes using a protein ranking algorithm.
+\newblock {\em Proteins: Structure, Function, and Bioinformatics},
+  80(10):2459--2468, 2012.
+
+\end{thebibliography}
