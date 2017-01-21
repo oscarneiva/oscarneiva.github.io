@@ -4,7 +4,6 @@ oscarneiva.github.io
 
 My web page.
 
-coco
 
 License
 -------
