@@ -1,4 +1,4 @@
-oscar-neiva.github.io
+oscarneiva.github.io
 ==========
 ![License: CC 3.0](https://img.shields.io/badge/license-CC%203.0-blue.svg)
 
@@ -14,7 +14,7 @@ Credits
 -------
 Design & development adaptation: Oscar Neiva.
 - Email: oscarneivaeneto@gmail.com or oscarneivaeneto@outlook.com
-- Website: https://oscar-neiva.github.io/
+- Website: https://oscarneiva.github.io/
 
 Primary design & developed: "WebThemez"  http://webthemez.com 
 
