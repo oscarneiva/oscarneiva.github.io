@@ -66,6 +66,7 @@ body, p{
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 22px;
+	/*text-indent: 1em;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -339,8 +340,8 @@ li.navbar-language{
 	padding: 0px 36px!important;
 }
 #section-profile{
-	background: #ffffff;
-	margin-bottom: 200px;
+	background: #000;
+	
 }
 .profile-desc{
 	padding-left: 80px;
