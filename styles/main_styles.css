@@ -305,7 +305,7 @@ section
 .header
 {
 	display: block;
-	position: fixed;
+	/*position: fixed;*/
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -800,17 +800,15 @@ section
 }
 
 /*********************************
-5. Home
+5. About
 *********************************/
 
-.home
+.about_background
 {
 	width: 100%;
-	height: 950px;
-	background: #FFFFFF;
-	z-index: 2;
+	align: center;
 }
-.home_slider_container
+.about_container
 {
 	width: 100%;
 	height: 100%;
