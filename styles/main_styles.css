@@ -340,7 +340,7 @@ section
 }
 .logo a
 {
-	margin-left: -50px;
+	margin-left: 50px;
 	font-size: 36px;
 	font-weight: 700;
 	color: #1d1d1d;
@@ -357,19 +357,7 @@ section
 
 .main_nav
 {
-	margin-left: 150px;
-}
-
-.lang
-{
-	width: 20px;
-	height: 20px;
-	margin-left: 80px;
-}
-
-.lang > a{
-	display: inline-block;
-	position: relative;
+	margin-left: 120px;
 }
 
 .main_nav > ul > li
