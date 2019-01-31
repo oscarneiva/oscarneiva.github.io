@@ -1,14 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\legacy",
-    "\\legacy\\legacy",
     "\\plugins",
     "\\plugins\\font-awesome-4.7.0",
     "\\plugins\\font-awesome-4.7.0\\css",
     "\\plugins\\font-awesome-4.7.0\\fonts",
     "\\styles"
   ],
-  "SelectedNode": "\\legacy\\legacy\\index.html",
+  "SelectedNode": "\\plugins\\font-awesome-4.7.0\\css\\font-awesome.min.css",
   "PreviewInSolutionExplorer": false
 }
