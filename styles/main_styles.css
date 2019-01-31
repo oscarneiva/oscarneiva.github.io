@@ -340,6 +340,7 @@ section
 }
 .logo a
 {
+	margin-left: -50px;
 	font-size: 36px;
 	font-weight: 700;
 	color: #1d1d1d;
@@ -353,10 +354,24 @@ section
 {
 	font-size: 24px;
 }
+
 .main_nav
 {
-	margin-left: 156px;
+	margin-left: 150px;
 }
+
+.lang
+{
+	width: 20px;
+	height: 20px;
+	margin-left: 80px;
+}
+
+.lang > a{
+	display: inline-block;
+	position: relative;
+}
+
 .main_nav > ul > li
 {
 	display: inline-block;
@@ -380,7 +395,7 @@ section
 .main_nav > ul > li > a:hover,
 .main_nav > ul > li.active > a
 {
-	color: #1b1b1b;
+	color: #aaaaaa;
 }
 .main_nav ul li.hassubs::after
 {
