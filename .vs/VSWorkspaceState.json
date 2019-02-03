@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\plugins\\font-awesome-4.7.0",
-    "\\styles"
+    "\\styles",
+    "\\styles\\bootstrap4"
   ],
   "SelectedNode": "\\styles\\main_styles.css",
   "PreviewInSolutionExplorer": false
