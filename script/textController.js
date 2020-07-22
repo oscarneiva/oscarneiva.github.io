@@ -8,12 +8,10 @@ $(document).ready(function() {
                 'Always participating in workshops, courses, and competitions in the technology area. <br><br>' +
                 '<br><br>' +
 
-                'Contact:'+
-                '<ul>' +
-                '<li><a href="mailto:contact@oscarneiva.com"> Email </a></li>' +
-                '<li><a href="https://github.com/oscarneiva"> GitHub </a></li>' +
-                '<li><a href="https://www.linkedin.com/in/oscar-neiva-636364b1"> LinkedIn </a></li>' +
-                '</ul>' +
+                'Contact:<br>'+
+                '<a href="mailto:contact@oscarneiva.com"> -Email </a><br>' +
+                '<a href="https://github.com/oscarneiva"> -GitHub </a><br>' +
+                '<a href="https://www.linkedin.com/in/oscar-neiva-636364b1"> -LinkedIn </a><br>' +
                 '<br><br>' +
 
                 'oscarneiva:~$'
@@ -30,7 +28,7 @@ function type(text, new_caption_length) {
     if(captionLength < text.length+1) {
         setTimeout(function(){
             type(text, captionLength);
-        }, 1);
+        }, 20);
     }
 }
 
