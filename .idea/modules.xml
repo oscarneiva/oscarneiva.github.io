@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/oscarneiva.github.io.iml" filepath="$PROJECT_DIR$/.idea/oscarneiva.github.io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/WebsiteTest.iml" filepath="$PROJECT_DIR$/.idea/WebsiteTest.iml" />
     </modules>
   </component>
 </project>

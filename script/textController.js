@@ -1,17 +1,22 @@
 $(document).ready(function() {
     setInterval ('cursorAnimation()', 600);
 
-    var about = 'Computer Science teacher at The British School Rio de Janeiro. <br><br>' +
-                'Graduate in Information and Communication Technology from FAETERJ institute of technology. <br><br>' +
-                'Worked as a software developer in C++ language at the SIRLab (robotics laboratory). <br><br>' +
-                'Worked as an intern at the LNCC (scientific computing laboratory) in the area of control and simulation of stochastic systems. <br><br>' +
-                'Always participating in workshops, courses, and competitions in the technology area. <br><br>' +
+    var about = 'Computer Science teacher currently working at The British School Rio and as a private mentor, ' +
+                'planning lessons and delivering ' +
+                'in line with the International Baccalaureate Diploma Programme - IB and the International General ' +
+                'Certificate of Secondary Education - IGCSE. ' +
+                'Graduate in Information and Communication Technology from FAETERJ institute of technology. ' +
+                'Former software developer inter from SIRLab (robotics laboratory). ' +
+                'Former scietific intern at the LNCC (scientific computing laboratory). ' +
+                'Always participating in workshops, courses, and competitions in the technology area. ' +
                 '<br><br>' +
 
-                'Contact:<br>'+
-                '<a href="mailto:contact@oscarneiva.com"> -Email </a><br>' +
-                '<a href="https://github.com/oscarneiva"> -GitHub </a><br>' +
-                '<a href="https://www.linkedin.com/in/oscar-neiva-636364b1"> -LinkedIn </a><br>' +
+                'Contact:'+
+                '<ul>' +
+                '<li><a href="mailto:contact@oscarneiva.com"> Email </a></li>' +
+                '<li><a href="https://github.com/oscarneiva"> GitHub </a></li>' +
+                '<li><a href="https://www.linkedin.com/in/oscar-neiva-636364b1"> LinkeIn </a></li>' +
+                '</ul>' +
                 '<br><br>' +
 
                 'oscarneiva:~$'
@@ -28,7 +33,7 @@ function type(text, new_caption_length) {
     if(captionLength < text.length+1) {
         setTimeout(function(){
             type(text, captionLength);
-        }, 20);
+        }, 1);
     }
 }
 
