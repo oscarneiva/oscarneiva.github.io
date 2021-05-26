@@ -5,10 +5,6 @@ $(document).ready(function() {
                 'planning lessons and delivering ' +
                 'in line with the International Baccalaureate Diploma Programme - IB and the International General ' +
                 'Certificate of Secondary Education - IGCSE. ' +
-                'Graduate in Information and Communication Technology from FAETERJ institute of technology. ' +
-                'Former software developer inter from SIRLab (robotics laboratory). ' +
-                'Former scietific intern at the LNCC (scientific computing laboratory). ' +
-                'Always participating in workshops, courses, and competitions in the technology area. ' +
                 '<br><br>' +
 
                 'Contact:'+
