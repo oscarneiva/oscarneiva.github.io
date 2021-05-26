@@ -1,12 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+
 body{
     background-color: #000000;
 }
+
 p{
     color: #00ff00;
     font-family:"Unifont",monospace;
     font-size: 2em;
-    text-align: justify;
+    text-align: left;
+
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
 }
+
 a{
     color:#00ff00;
+}
+
+.box{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.border{
+    box-shadow: 0 1px 10px 0 #00ff00;
+    transition: box-shadow 5s linear;
 }
