@@ -29,3 +29,7 @@ a{
     box-shadow: 0 1px 10px 0 #00ff00;
     transition: box-shadow 5s linear;
 }
+
+#duckWalk {
+    position: absolute;
+}
