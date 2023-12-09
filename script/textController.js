@@ -9,7 +9,7 @@ $(document).ready(function() {
 
                 'Contact:'+
                 '<ul>' +
-                '<li><a href="mailto:contact@oscarneiva.com"> Email </a></li>' +
+                '<li><a href="mailto:oscarneivaeneto@gmail.com"> Email </a></li>' +
                 '<li><a href="https://github.com/oscarneiva"> GitHub </a></li>' +
                 '<li><a href="https://www.linkedin.com/in/oscarneiva/"> LinkedIn </a></li>' +
                 '</ul>' +
