@@ -6,7 +6,10 @@ $(document).ready(function() {
                 'in line with the International Baccalaureate Diploma Programme - IB and the International General ' +
                 'Certificate of Secondary Education - IGCSE. ' +
                 '<br><br>' +
-
+        
+                'Click on the duck to access the CS0 website and learn more about my extracurricular projects. ' +
+                '<br><br>' +
+        
                 'Contact:'+
                 '<ul>' +
                 '<li><a href="mailto:oscarneivaeneto@gmail.com"> Email </a></li>' +
