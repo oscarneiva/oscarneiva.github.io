@@ -7,9 +7,6 @@ $(document).ready(function() {
                 'Certificate of Secondary Education - IGCSE. ' +
                 '<br><br>' +
         
-                'Click on the duck to access the CS0 website and learn more about my extracurricular projects. ' +
-                '<br><br>' +
-        
                 'Contact:'+
                 '<ul>' +
                 '<li><a href="mailto:oscarneivaeneto@gmail.com"> Email </a></li>' +
